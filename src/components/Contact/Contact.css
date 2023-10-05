@@ -1,0 +1,144 @@
+.main-container-contact {
+  background-color: rgba(5, 5, 170, 0.712);
+  padding: 6.4rem 4.8rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-heading {
+  color: #fff;
+  text-align: center;
+  font-size: 4.8rem;
+  padding: 6.4rem 0 6.4rem 0;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 4.8rem;
+  line-height: 1.8;
+  font-size: 1.4rem;
+  color: #eee;
+}
+
+.main {
+  font-size: 2.4rem;
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.main-data {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  column-gap: 0.8rem;
+  row-gap: 0.8rem;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  gap: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.inputfield {
+  border: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #eee;
+  border-bottom: 2px solid whitesmoke;
+  width: 100%;
+  height: 4.8rem;
+}
+
+.inputfield:focus {
+  border-bottom: 2px solid red;
+  outline: none;
+}
+
+.inputfield::placeholder {
+  font-family: inherit;
+  color: #eee;
+}
+
+#message {
+  background-image: none;
+  background-color: transparent;
+  box-shadow: none;
+  color: #eee;
+  border: none;
+  outline: none;
+  resize: none;
+  border-bottom: 2px solid whitesmoke;
+}
+
+#message:focus {
+  outline: none;
+  border-bottom: 2px solid red;
+}
+
+.last-button {
+  margin-top: 6.4rem;
+  color: #eee;
+  border: 1px solid white;
+  background-image: none;
+  background-color: transparent;
+  padding: 1.2rem 2.4rem 1.2rem 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.last-button:hover {
+  background-color: #fff;
+  color: rgba(5, 5, 170, 0.712);
+}
+
+.last-icons {
+  margin-top: 9.6rem;
+  font-size: 4.2rem;
+  gap: 4.2rem;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 9.6rem;
+  justify-content: center;
+}
+
+.logo:hover {
+  color: white;
+}
+
+@media only screen and (max-width: 769px) {
+  .main-container-contact {
+    padding: 0 2.4rem;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+}

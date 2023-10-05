@@ -1,0 +1,47 @@
+.clients {
+  padding: 6.4rem 4.8rem;
+}
+
+.client-imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2.4rem;
+  gap: 1.8rem;
+}
+
+.client-image {
+  overflow: hidden;
+  transition: all 0.5s;
+  position: relative;
+}
+
+.client-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+}
+
+.image {
+  max-width: 100%;
+}
+.love {
+  color: transparent;
+  font-size: 2.4rem;
+  position: absolute;
+  left: 11%;
+  bottom: 5%;
+}
+.love:hover {
+  display: block;
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .clients {
+    padding: 0 2.4rem;
+  }
+  .client-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
